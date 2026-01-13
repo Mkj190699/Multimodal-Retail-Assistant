@@ -28,3 +28,30 @@ An intelligent retail assistant that processes images, text, and voice queries t
 │ Product DB │◀───│ Personalization│◀───│ Response │
 │ │ │ Engine │ │ Generator │
 └─────────────────┘ └─────────────────┘ └─────────────────┘
+
+
+
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.9+
+- Google Cloud Account (for Vertex AI)
+- Docker & Kubernetes (for deployment)
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/Mkj190699/multimodal-retail-assistant.git
+cd multimodal-retail-assistant
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up environment
+cp .env.example .env
+# Edit .env with your Google Cloud credentials
+
+# Run locally
+python app.py
